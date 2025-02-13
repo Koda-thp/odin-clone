@@ -1,3 +1,44 @@
 html {
     font-family: 'Roboto', sans-serif; 
 }
+footer, header, .first-row{
+    background-color: #1f2937;
+}
+.first-row h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.first-row p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+header{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.cta .button{
+    background-color: #3882f6;
+}
+header p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.third-row{
+    background-color: #e5e7eb;
+    
+}
+.third-row p {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+.first-row{
+    display: flex;
+}
+.first-row img{
+    flex-shrink: 0;
+    height: 70%;
+    width: 70%;
+}
